@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-export default function AlignRightIcon () {
+export default function AlignRightIcon() {
   return (
     <svg
       id="Layer"

@@ -11,20 +11,20 @@ const Dark: Theme = {
     paddingLeft: "1rem",
     paddingRight: "2rem",
     alignItems: "center",
-    color: "#FFF"
+    color: "#FFF",
   },
   container: {
     position: "relative",
     height: "100%",
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
   },
   keys: {
     backgroundColor: "#231f20E6",
-    color: "#FFF"
+    color: "#FFF",
   },
   data: {
-    backgroundColor: "#231f20"
+    backgroundColor: "#231f20",
   },
   bottom: {
     opacity: 0.9,
@@ -36,8 +36,8 @@ const Dark: Theme = {
     paddingLeft: "2rem",
     paddingBottom: "0.5rem",
     paddingTop: "0.5rem",
-    boxSizing: "border-box"
-  }
+    boxSizing: "border-box",
+  },
 };
 
 const Light: Theme = {
@@ -50,20 +50,20 @@ const Light: Theme = {
     paddingBottom: "1rem",
     paddingLeft: "1rem",
     paddingRight: "2rem",
-    alignItems: "center"
+    alignItems: "center",
   },
   container: {
     position: "relative",
     height: "100%",
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
   },
   keys: {
     backgroundColor: "#fff",
-    color: "#222"
+    color: "#222",
   },
   data: {
-    backgroundColor: "#fff"
+    backgroundColor: "#fff",
   },
   bottom: {
     opacity: 0.9,
@@ -75,13 +75,13 @@ const Light: Theme = {
     paddingLeft: "2rem",
     paddingBottom: "0.5rem",
     paddingTop: "0.5rem",
-    boxSizing: "border-box"
-  }
+    boxSizing: "border-box",
+  },
 };
 
 const themes: Themes = {
   Dark,
-  Light
+  Light,
 };
 
 export default themes;

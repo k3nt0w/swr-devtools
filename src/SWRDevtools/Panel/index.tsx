@@ -14,11 +14,19 @@ export default function Panel({
   toggleShow,
   debug,
 }: PanelProps) {
-  const { theme, handleChangeTheme, width, height, x, y, handleResize } = usePanelState({
+  const {
+    theme,
+    handleChangeTheme,
+    width,
+    height,
+    x,
+    y,
+    handleResize,
+  } = usePanelState({
     toolbarPosition,
     previousToolbarPosition,
     debug,
-    show
+    show,
   });
   return (
     <>

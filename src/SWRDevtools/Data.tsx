@@ -1,11 +1,11 @@
 import React, { useEffect, memo } from "react";
-import themes from './themes';
+import themes from "./themes";
 import { DataProps } from "./types";
 
 export default memo(function Data({ JsonViewer, data, theme }: DataProps) {
   useEffect(() => {
     JsonViewer.current = require("react-json-view").default;
-  }, [])
+  }, []);
   return (
     <div style={{ position: "relative", backgroundColor: "#222" }}>
       <div
@@ -15,7 +15,7 @@ export default memo(function Data({ JsonViewer, data, theme }: DataProps) {
           overflowY: "scroll",
           maxHeight: 400,
           boxSizing: "border-box",
-          ...themes[theme].data
+          ...themes[theme].data,
         }}
       >
         <JsonViewer.current
@@ -28,4 +28,4 @@ export default memo(function Data({ JsonViewer, data, theme }: DataProps) {
       </div>
     </div>
   );
-})
+});

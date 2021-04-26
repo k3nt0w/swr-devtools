@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-export default function CloseIcon ({ fill = "white", height = 16, width = 16}) {
+export default function CloseIcon({ fill = "white", height = 16, width = 16 }) {
   return (
     <svg
       id="Capa_1"

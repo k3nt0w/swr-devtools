@@ -1,6 +1,10 @@
 import React from "react";
 
-export default function GithubIcon({ fill = "white", width = 16, height = 16}) {
+export default function GithubIcon({
+  fill = "white",
+  width = 16,
+  height = 16,
+}) {
   return (
     <svg
       role="img"
