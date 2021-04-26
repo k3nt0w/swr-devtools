@@ -1,6 +1,6 @@
 {
   "name": "@k3nt0w/swr-devtools",
-  "version": "0.2.27",
+  "version": "0.0.1",
   "author": "Kento Watanabe <kento.watanabe.11@gmail.com>",
   "license": "MIT",
   "description": "Devtools for SWR",
